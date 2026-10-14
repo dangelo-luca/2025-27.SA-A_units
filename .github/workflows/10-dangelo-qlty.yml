@@ -16,4 +16,4 @@ jobs:
       - run: ~/.qlty/bin/qlty smells --all
       - run: ~/.qlty/bin/qlty metrics --all --quiet
       - name: Run QLTY check (Quality Gate)
-        run: ~/.qlty/bin/qlty check --all
+        -run: ~/.qlty/bin/qlty check --all
